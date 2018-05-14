@@ -31,7 +31,7 @@ make -j2
 
 <div align=center>  
   
-![](https://github.com/TianQi-777/Build_ORB_FeatureDescriptor/blob/master/Images/features)
+![](https://github.com/TianQi-777/Build_ORB_FeatureDescriptor/blob/master/Images/feature_.png)
 </div>
 
 <div align=center>  

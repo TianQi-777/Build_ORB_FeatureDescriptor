@@ -4,7 +4,7 @@ The purpose of this demo is to better understand the underlying implementation o
 ## Related theory
 [Oriented FAST and rotated BRIEF (ORB)](https://en.wikipedia.org/wiki/Oriented_FAST_and_rotated_BRIEF) is a fast robust local feature detector, first presented by Ethan Rublee et al. It can be used in computer vision tasks like object recognition or 3D reconstruction. It is based on the FAST keypoint detector and the visual descriptor BRIEF (Binary Robust Independent Elementary Features). Its aim is to provide a fast and efficient alternative to SIFT.
 
-## Additional Prerequisites for this project
+## Additional Prerequisites for this demo  
 Besides,to build this project, you need the followings:  
 
 **OpenCV**  

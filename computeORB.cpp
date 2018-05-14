@@ -386,7 +386,7 @@ void computeORBDesc(const cv::Mat &image, vector<cv::KeyPoint> &keypoints, vecto
                 || kp.pt.x+ORB_pattern[4*i+2]<0 || kp.pt.x+ORB_pattern[4*i+2] > image.rows
                 || kp.pt.y+ORB_pattern[4*i+3]<0 || kp.pt.y+ORB_pattern[4*i+3] > image.cols)  //判断全局坐标pu,pv,qu,qv是否越界
              {
-                 d.clear();// if kp goes outside, set d.clear()
+                 d.clear();// 如果kp出界,设置d.clear()
                  break;
              }
 

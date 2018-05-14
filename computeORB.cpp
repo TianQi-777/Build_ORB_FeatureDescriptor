@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
     cv::FAST(first_image, keypoints, 40);
     cout << "keypoints: " << keypoints.size() << endl;
 
-    // compute angle for each keypoint
+    // 计算每个关键点的角度
     computeAngle(first_image, keypoints);
 
     // 计算ORB描述子
@@ -108,7 +108,6 @@ void computeAngle(const cv::Mat &image, vector<cv::KeyPoint> &keypoints) {
 
         kp.angle = std::atan2(sum_m01,sum_m10)*180/pi;  //角度转换,openCV用角度制保存atan2(y,x)
         //kp.angle = std::atan(temp)*180/pi;            //atan(y/x)
-        // END YOUR CODE HERE
     }
 
     return;

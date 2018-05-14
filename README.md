@@ -8,7 +8,7 @@ The purpose of this demo is to better understand the underlying implementation o
 Besides,to build this project, you need the followings:  
 
 **OpenCV**  
-Use [OpenCV] to process images.
+Use [OpenCV](http://opencv.org) to process images.
 
 **C++11 or C++0x Compiler**  
 Use the some functionalities of C++11.
